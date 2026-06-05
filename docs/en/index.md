@@ -29,5 +29,5 @@ features:
 ---
 
 ::: warning Under Construction
-English documentation is being translated. Some pages may be incomplete. [中文文档](/zh/) is the most up-to-date.
+English documentation is being translated. Some pages may be incomplete. [中文文档](/) is the most up-to-date.
 :::

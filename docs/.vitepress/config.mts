@@ -112,6 +112,9 @@ export default defineConfig({
   },
 
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     logo: '/logo.svg',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GoldenEggs-Workshop/llm-fence' }
