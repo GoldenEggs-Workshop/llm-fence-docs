@@ -37,12 +37,27 @@ pnpm docs:build
 pnpm docs:preview
 ```
 
+## 📂 文档结构
+
+```
+docs/
+  index.md                  → /               (首页)
+  guide/
+    getting-started.md      → /guide/getting-started  (快速开始)
+    configuration.md        → /guide/configuration    (配置指南)
+    providers.md            → /guide/providers        (上游提供商)
+    processors.md           → /guide/processors       (处理器管道)
+    keys-and-policies.md    → /guide/keys-and-policies (Key 与策略)
+    audit.md                → /guide/audit            (AI 审计)
+    admin.md                → /guide/admin            (管理后台)
+    architecture.md         → /guide/architecture     (架构总览)
+    deployment.md           → /guide/deployment       (编译与部署)
+    api.md                  → /guide/api              (API 参考)
+```
+
 ## ✍️ 编辑文档
 
-直接在 `docs/` 下新建或修改 `.md` 文件，开发服务器会自动热更新。文件路径即对应网站的访问路径：
-
-- `docs/index.md` → `/`
-- `docs/guide/start.md` → `/guide/start`
+直接在 `docs/` 下新建或修改 `.md` 文件，开发服务器会自动热更新。
 
 更多写作技巧请参考[VitePress 官方文档](https://vitepress.dev/zh/)。
 
