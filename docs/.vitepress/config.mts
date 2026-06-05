@@ -3,21 +3,33 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LLM Fence",
   description: "面向团队的 LLM API 代理，重点解决 LLM 使用中的审计合规和权限管理问题。提供 OpenAI / Anthropic 双格式兼容、细粒度策略控制、AI 旁路审计和客户端识别，帮助团队安全、可控地接入多个 LLM 提供商。",
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+  ],
   themeConfig: {
+    logo: '/logo.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/getting-started' },
-      { text: '文档', link: '/guide/configuration' }
+      { text: '文档', link: '/guide/configuration' },
+      { text: 'API', link: '/api' }
     ],
 
     sidebar: {
+      '/api': [
+        {
+          text: 'API 参考',
+          items: [
+            { text: 'API 参考', link: '/api' },
+          ]
+        }
+      ],
       '/guide/': [
         {
           text: '入门',
           items: [
             { text: '快速开始', link: '/guide/getting-started' },
             { text: '配置指南', link: '/guide/configuration' },
-            { text: 'API 参考', link: '/guide/api' },
           ]
         },
         {
