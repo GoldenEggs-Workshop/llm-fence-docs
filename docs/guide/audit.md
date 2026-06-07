@@ -161,8 +161,8 @@ pipelines:
 
 ```yaml
 truncation:
-  max_request_chars: -1
-  max_response_chars: -1
+  max_request_chars: 20000
+  max_response_chars: 20000
 ```
 
 ## 审计证明
