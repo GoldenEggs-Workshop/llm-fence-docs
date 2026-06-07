@@ -30,3 +30,7 @@ features:
   # - title: 跨平台
   #   details: Linux musl 静态编译，兼容 CentOS 7+、Ubuntu 20.04+ 等；Windows 静态 CRT 无需 vcruntime。单个二进制文件，部署简单。
 ---
+
+:::warning 文档时效性提示
+项目正在快速迭代中，文档可能存在滞后或不准确的情况。如有疑问，请以<a href="https://github.com/GoldenEggs-Workshop/llm-fence" target="_blank">源码</a>为准。
+:::

@@ -28,6 +28,10 @@ features:
     details: Static musl builds for Linux (CentOS 7+, Ubuntu 20.04+), static CRT for Windows. Single binary, simple deployment.
 ---
 
+::: warning Documentation Notice
+The project is under rapid iteration. Documentation may lag behind or be outdated. When in doubt, refer to the <a href="https://github.com/GoldenEggs-Workshop/llm-fence" target="_blank">source code</a>.
+:::
+
 ::: warning Under Construction
 English documentation is being translated. Some pages may be incomplete. [中文文档](/) is the most up-to-date.
 :::
