@@ -14,15 +14,15 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/' },
           { text: '快速开始', link: '/guide/getting-started' },
-          { text: '文档', link: '/guide/configuration' },
-          { text: 'API', link: '/api/' }
+          { text: '配置指南', link: '/guide/configuration' },
+          { text: '管理API', link: '/api/' }
         ],
         sidebar: {
           '/api': [
             {
-              text: 'API 参考',
+              text: '管理API',
               items: [
-                { text: 'API 参考', link: '/api/' },
+                { text: '管理API', link: '/api/' },
               ]
             }
           ],
