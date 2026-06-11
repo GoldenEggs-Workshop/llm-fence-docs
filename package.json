@@ -1,10 +1,12 @@
 {
   "devDependencies": {
+    "@scalar/api-reference": "^1.59.3",
     "vitepress": "^2.0.0-alpha.17"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "scalar:copy": "node scripts/copy-scalar-assets.mjs",
+    "docs:dev": "npm run scalar:copy && vitepress dev docs",
+    "docs:build": "npm run scalar:copy && vitepress build docs",
+    "docs:preview": "npm run scalar:copy && vitepress preview docs"
   }
 }
