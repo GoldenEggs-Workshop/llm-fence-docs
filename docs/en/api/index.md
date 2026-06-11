@@ -1,30 +1,10 @@
----
-layout: page
-pageClass: scalar-frame-page
-aside: false
-sidebar: false
-outline: false
----
+# API Reference
 
-<iframe class="api-reference-frame" src="/api-reference.html" title="API Reference"></iframe>
+LLM Fence exposes two API surfaces:
 
-<style>
-.scalar-frame-page .VPContent {
-  padding-top: var(--vp-nav-height) !important;
-}
+- [Admin API](/en/api/admin/): control-plane endpoints for the admin console and operational integrations, under `/api/admin/*`.
+- [LLM Proxy API](/en/api/proxy/): OpenAI / Anthropic compatible model invocation endpoints, under `/v1/*`.
 
-.scalar-frame-page .VPLocalNav,
-.scalar-frame-page .VPPage {
-  display: block;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
+Use the Admin API for console integration, logs, usage analytics, and key management.
 
-.api-reference-frame {
-  display: block;
-  width: 100%;
-  height: calc(100dvh - var(--vp-nav-height));
-  border: 0;
-}
-</style>
+Use the LLM Proxy API when connecting existing OpenAI or Anthropic clients to LLM Fence.

@@ -15,14 +15,16 @@ export default defineConfig({
           { text: '首页', link: '/' },
           { text: '快速开始', link: '/guide/getting-started' },
           { text: '配置指南', link: '/guide/configuration' },
-          { text: '管理API', link: '/api/' }
+          { text: 'API', link: '/api/' }
         ],
         sidebar: {
           '/api': [
             {
-              text: '管理API',
+              text: 'API 参考',
               items: [
-                { text: '管理API', link: '/api/' },
+                { text: '概览', link: '/api/' },
+                { text: '管理 API', link: '/api/admin/' },
+                { text: 'LLM 代理 API', link: '/api/proxy/' },
               ]
             }
           ],
@@ -76,7 +78,9 @@ export default defineConfig({
             {
               text: 'API Reference',
               items: [
-                { text: 'API Reference', link: '/en/api/' },
+                { text: 'Overview', link: '/en/api/' },
+                { text: 'Admin API', link: '/en/api/admin/' },
+                { text: 'LLM Proxy API', link: '/en/api/proxy/' },
               ]
             }
           ],
