@@ -1,5 +1,6 @@
 # 依赖目录
 node_modules/
+.pnpm-store/
 
 # VitePress 构建输出和缓存
 docs/.vitepress/dist/
